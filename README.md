@@ -7,3 +7,4 @@
 - 欢迎大家优化和添加新功能
 - [PopClip 开发文档](https://github.com/pilotmoon/PopClip-Extensions)
 - 还是因为懒，README就这么多
+- 里面的key是某位大佬提供，也没有加密，所有希望各位珍惜，有条件的自己申请一个替换掉
