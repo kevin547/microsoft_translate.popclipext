@@ -1,5 +1,4 @@
-# MicroSoftTranslate
- popclip的微软翻译插件
+# popclip的微软翻译插件
 
 - 基于微软翻译API，支持大部分语言翻译为中文/英文
 - 使用cocoDialog弹窗输出
