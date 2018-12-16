@@ -1,14 +1,14 @@
 # PopClip的微软翻译插件
 
 # 效果预览
+
+## 居中弹窗
 ![居中](images/center.gif)
 
-居中弹窗提供复制选项
-
+## 右上通知
 ![右上](images/top.gif)
 
-右上通知不提供复制选项
-
+## 设置菜单
 ![选项](images/option.png)
 
 
