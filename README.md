@@ -5,11 +5,24 @@
 ## 居中弹窗
 ![居中](images/center.gif)
 
+
+
+
+
+
 ## 右上通知
 ![右上](images/top.gif)
 
+
+
+
+
+
 ## 设置菜单
 ![选项](images/option.png)
+
+
+
 
 
 - 基于微软翻译API，支持大部分语言翻译为中文/英文
