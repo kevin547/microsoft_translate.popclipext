@@ -1,29 +1,20 @@
 # PopClip的微软翻译插件
 
-# 效果预览
-
-## 居中弹窗
-![居中](images/center.gif)
+## 效果预览
 
 
+### 设置菜单
+   ![选项](images/option.png)
 
+### 居中弹窗
+   ![居中](images/center.gif)
 
-
-
-## 右上通知
-![右上](images/top.gif)
-
+### 右上通知
+   ![右上](images/top.gif)
 
 
 
-
-
-## 设置菜单
-![选项](images/option.png)
-
-
-
-
+## 说明
 
 - 基于微软翻译API，支持大部分语言翻译为中文/英文
 - 使用cocoDialog弹窗输出
