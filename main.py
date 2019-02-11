@@ -2,9 +2,10 @@
 import os
 import translate
 
-def output(result, to_clipboard, location):
-    os.environ['result'] = result
-    if location == '屏幕右上角通知':
+
+def output(translate_result, to_clip_board, alert_location):
+    os.environ['result'] = translate_result
+    if alert_location == '屏幕右上角通知':
         # 输出结果到右上角
         shell = 'exec ./dialog/Contents/MacOS/cocoaDialog bubble \
                 --title "翻译结果" \
@@ -21,7 +22,7 @@ def output(result, to_clipboard, location):
         shell = shell + '\n if [ "$rv" == "3" ]; then echo "$result" | /usr/bin/pbcopy ;fi'
     os.system(shell)
     # 复制翻译结果到剪贴板
-    if to_clipboard == '复制':
+    if to_clip_board == '复制':
         os.system('echo "$result" |/usr/bin/pbcopy')
 
 
@@ -48,6 +49,6 @@ if __name__ == '__main__':
     if LANGUAGES[mother_lang] == detected:
         result = translator.translate(text=text, to_lang=LANGUAGES[dest_lang])
     # 输出结果
-    output(result=result[0].get('translations')[0].get('text').encode('utf-8')
-           , to_clipboard=to_clipboard
-           , location=location)
+    output(translate_result=result[0].get('translations')[0].get('text').encode('utf-8')
+           , to_clip_board=to_clipboard
+           , alert_location=location)

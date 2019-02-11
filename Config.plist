@@ -11,10 +11,6 @@
 			<string>/usr/bin/python</string>
 			<key>Shell Script File</key>
 			<string>main.py</string>
-			<key>Requirements</key>
-			<array>
-				<string>copy</string>
-			</array>
 			<key>Title</key>
 			<string>翻译</string>
 		</dict>
